@@ -21,7 +21,7 @@ body {
 
 .main-grid {
     display: grid;
-    grid-template-columns: minmax(1em, 50px) minmax(250px, 350px) minmax(1em, 50px);
+    grid-template-columns: minmax(1em, 50px) minmax(250px, 500px) minmax(1em, 50px);
 }
 
 .home-hero-overlapping-img, .page-img, .footer-wave {
