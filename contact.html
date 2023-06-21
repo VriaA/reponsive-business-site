@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+
+        <title>Jake&amp;Elwood | Contact</title>
+
+        <!--FAVICON-->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+
+        <!--FONT AWESOME CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        
+        <!--GOOGLE FONT-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+
+        <!--CSS FILE-->
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+
+    <body>
+
+        <header class="header" id="header">
+            <a class="header-logo-cntr" href="index.html">
+                <img class="site-logo" src="images/logo.png" alt="Site logo">
+            </a>
+
+            <nav class="site-nav" id="site-nav">
+                <ul class="site-nav-list">
+                    <li class="site-nav-list-item"><a class="site-nav-link" href="index.html">home</a></li>
+                    <li class="site-nav-list-item"><a class="site-nav-link" href="about.html">about us</a></li>
+                    <li class="site-nav-list-item"><a class="site-nav-link current" href="contact.html">contact</a></li>
+                </ul>
+                <p class="close-nav yellow-accent-color" title="Close navigation menu">&times;</p>
+            </nav>
+            <div class="nav-bars-cntr">
+                <p class="nav-bars" title="Open navigation menu">&#9776;</p>
+            </div>
+        </header>
+
+        <main>
+
+            <div class="hero-cntr">
+                <section class="hero">
+                    <h1 class="hero-title">Contact</h1>
+                    <p class="hero-subtitle">Let us know how we can help you need and we&apos;ll drive over to your place in our Bluesmobile the following day to discuss the deal.</p>
+                </section>
+            </div>
+
+            <div class="main-grid info contact-info">
+
+                <div class="col info-section-one contact-img hidden">
+                    <img class="page-img" src="./images/contact.jpg" alt="Woman under water with goggles on">
+                </div>
+
+                <section class="col contact-info-section hidden">
+                    <h2 class="section-title section-title-left">Getting in touch with us</h2>
+                    <p class="section-text">
+                        You can either use the form or send us an email. I'll get back in touch with you as soon as possible!
+                    </p>
+                </section>
+
+                <form class="col contact-form hidden" id="contact-form">
+                    
+                    <label for="first-name" class="first-name-label">First Name</label>
+                        <input id="first-name" class="first-name-el" type="text" required>
+
+                    <label for="email" class="email-label">Email</label>
+                        <input id="email" class="email-el" type="email" required>
+
+                    <label for="message" class="message-label">Message</label>
+                        <textarea id="message" class="message-el" required></textarea>
+
+                    <button type="reset" class="btn btn-primary send-btn">Send</button>
+                </form>
+
+            </div>
+
+        </main>
+
+        <img class="footer-wave pc-wave" src="./images/wave-haikei2.svg" alt="grey wave background">
+        <img class="footer-wave mobile-wave" src="./images/wave-haikei.svg" alt="grey wave background">
+        <footer class="footer main-grid">
+            <div class="footer-main">
+                <img class="site-logo footer-logo hidden" src="images/logo.png" alt="site logo">
+                <p class="footer-text hidden">
+                    Two brothers from Chicago that are just trying to pay back their debt 
+                    by helping others with their SEO, SEM, and Content Marketing needs.
+                </p>
+                <p class="footer-fineprint hidden">&copy;Jake&amp;Elwood 2023</p>
+            </div>
+
+            <ul class="socials-list hidden">
+                <li> <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-square-facebook socialsist-item"></i></a> </li>
+                <li> <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter socials-list-item"></i></a> </li>
+                <li> <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram socials-list-item"></i></a> </li>
+            </ul>
+        </footer>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
