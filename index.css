@@ -115,7 +115,8 @@ body {
 }
 .home-hero-cntr {
     position: relative;
-    background-position: 60% 0;
+    background-position-x: 60%;
+    background-position-y: 0;
     padding: 10em 0 8em;
     overflow: hidden;
 }
@@ -124,7 +125,8 @@ body {
     position: absolute;
     top: 0;
     opacity: .3;
-    background-position: 61% 0;
+    background-position-x: 61%;
+    background-position-y: 0;
     z-index: 1;
     transition: 1s opacity ease-in-out;
 }
@@ -466,11 +468,13 @@ footer > *:not(.socials-list) {
         margin-bottom: 150px;
     }
     .home-hero-cntr {
-        background-position: 60% 0;
+        background-position-x: 60%;
+        background-position-y: 0;
     }
 
     .home-hero-overlapping-img {
-        background-position: 62% 0;
+        background-position-x: 62%;
+        background-position-y: 0;
     }
     
     .home-hero {
@@ -483,11 +487,13 @@ footer > *:not(.socials-list) {
         margin-bottom: 150px;
     }
     .home-hero-cntr {
-        background-position: 50% 0;
+        background-position-x: 50%;
+        background-position-y: 0;
     }
 
     .home-hero-overlapping-img {
-        background-position: 52% 0;
+        background-position-x: 52%;
+        background-position-y: 0;
     }
     
     .home-hero {
@@ -548,11 +554,12 @@ footer > *:not(.socials-list) {
     }
 
     .home-hero-cntr {
-        background-position: 0 0;
+        background-position: 0;
     }
 
     .home-hero-overlapping-img {
-        background-position: -15px 0;
+        background-position-x: -15px;
+        background-position-y: 0;
     }
     .home-hero {
         max-width: 100%;
