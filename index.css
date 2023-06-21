@@ -457,6 +457,30 @@ footer > *:not(.socials-list) {
 }
 
 /*=========== MEDIA QUERIES ===========*/
+
+@media screen and (min-width:320px) and (max-width: 600px) {
+    .home-hero-cntr {
+        background-position: -840px 0;
+    }
+
+    .home-hero-overlapping-img {
+        background-position: -845px 0;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1000px) {
+    .col:last-child {
+        margin-bottom: 150px;
+    }
+    .home-hero-cntr {
+        background-position: -870px 0;
+    }
+
+    .home-hero-overlapping-img {
+        background-position: -885px 0;
+    }
+}
+
 @media (min-width: 1024px) {
 
     .main-grid {
@@ -611,21 +635,5 @@ footer > *:not(.socials-list) {
 
     .mobile-wave {
         display: none;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width: 1000px) {
-    .col:last-child {
-        margin-bottom: 150px;
-    }
-}
-
-@media screen and (min-width:320px) and (max-width: 768px) and (orientation: portrait) {
-    .home-hero-cntr {
-        background-position: -480px 0;
-    }
-
-    .home-hero-overlapping-img {
-        background-position: -495px 0;
     }
 }
