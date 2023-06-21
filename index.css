@@ -67,6 +67,7 @@ body {
     align-items: center;
     width: 100vw;
     min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
     background: #111;
     transform: translateX(100%);
     z-index: 21;
@@ -107,6 +108,7 @@ body {
 /*=== HOME HERO SECTION ===*/
 .home-hero-cntr, .home-hero-overlapping-img {
     min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
     background: url(./images/hero-bg.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -633,6 +635,7 @@ footer > *:not(.socials-list) {
 
     .footer-wave {
         height: 80vh;
+        height: calc(var(--vh, 1vh) * 80);
     }
 
     .footer-main {
@@ -654,6 +657,7 @@ footer > *:not(.socials-list) {
     .pc-wave {
         display: inline-block;
         height: 65vh;
+        height: calc(var(--vh, 1vh) * 65);
     }
 
     .mobile-wave {

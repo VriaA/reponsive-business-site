@@ -6,6 +6,14 @@ const homeHeroCntr = document.querySelector('.home-hero-cntr')
 const homeHeroOverlappingImg = document.getElementById('home-hero-overlapping-img')
 const contactForm = document.getElementById('contact-form')
 
+
+window.addEventListener('change', _=>{
+    //Gets the viewport height and multiplies it by 1% to get a value for a vh unit
+        let vh = window.innerHeight * 0.01;
+        // Then sets the value in the --vh custom property to the root of the document
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+})
+
 /*WHEN THE HAMBURGER MENU ICON IS CLICKED, THE NAVIGATION MENU OPENS*/
 navBars.addEventListener('click', _=> {
     openNavMenu()
