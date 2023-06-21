@@ -35,7 +35,7 @@ body {
 
 .show {
     opacity: 1;
-    transition: 1s all ease-in-out;
+    transition: .6s all ease-in-out;
 }
 
 /*=========== LAYOUT ===========*/
