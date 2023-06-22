@@ -159,7 +159,6 @@ body {
     width: fit-content;
     font-size: 2rem;
     color: #b9b9b9;
-    padding-top: 7px;
     margin: 0 auto;
     animation: 1s bounce linear infinite;
 }
