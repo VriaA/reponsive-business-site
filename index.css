@@ -29,13 +29,13 @@ body {
     object-fit: cover;
 }
 
-/* .hidden {
+.hidden {
     opacity: 0;
-} */
+    transition: .6s all ease;
+}
 
 .show {
     opacity: 1;
-    transition: .6s all ease;
 }
 
 /*=========== LAYOUT ===========*/
