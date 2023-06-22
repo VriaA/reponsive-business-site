@@ -157,8 +157,6 @@ body {
 .fa-chevron-up {
     display: block;
     width: fit-content;
-    font-size: 2rem;
-    color: #b9b9b9;
     margin: 0 auto;
     animation: 1s bounce linear infinite;
 }
@@ -451,6 +449,12 @@ strong, .btn, .site-nav-link, .section-title {
 
 .yellow-accent-color {
     color: #FFE600;
+}
+
+.fa-chevron-up {
+    font-size: 2rem;
+    color: #b9b9b9;
+    text-shadow: 0 0 5px #ffE000;
 }
 
 .hero-cntr, .info, .site-nav-list, .footer {
