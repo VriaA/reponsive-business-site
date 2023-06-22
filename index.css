@@ -107,26 +107,24 @@ body {
 
 /*=== HOME HERO SECTION ===*/
 .home-hero-cntr, .home-hero-overlapping-img {
-    min-height: 100vh;
-    min-height: calc(var(--vh, 1vh) * 100);
+    position: fixed;
+    top: 0;
+    width: 100%;
     background: url(./images/hero-bg.jpg);
-    /* background-attachment: fixed; */
     background-size: cover;
 }
 .home-hero-cntr {
-    position: relative;
-    background-position-x: 60%;
-    background-position-y: 0;
+    height: 100vh;
+    background-position: 60% 0;
     padding: 10em 0 8em;
-    overflow: hidden;
+    overflow-y: auto;
+    z-index: 0;
 }
 
 .home-hero-overlapping-img {
-    position: absolute;
-    top: 0;
+    height: 100%;
     opacity: .3;
-    background-position-x: 61%;
-    background-position-y: 0;
+    background-position: 61% 0;
     z-index: 1;
     transition: 1s opacity ease-in-out;
 }
@@ -147,9 +145,21 @@ body {
 
 /*=========== INFO ===========*/
 
+.home-wrapper {
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    min-height: fit-content;
+    background: #222;
+    z-index: 19;
+}
+
+main {
+    padding: 6.5em 0 10em;
+}
+
 .info {
     justify-content: center;
-    padding: 5em 0 5.7em;
     gap: 3em;
 }
 
@@ -204,7 +214,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8.5em 0 0;
+    padding: 4em 0 6em;
 }
 
 .hero {
@@ -309,7 +319,7 @@ body {
 
 .footer {
     position: relative;
-    padding: 4em 0;
+    padding-bottom: 4em;
 }
 
 .footer-wave {
@@ -468,13 +478,11 @@ footer > *:not(.socials-list) {
         margin-bottom: 150px;
     }
     .home-hero-cntr {
-        background-position-x: 60%;
-        background-position-y: 0;
+        background-position: 60% 0;
     }
 
     .home-hero-overlapping-img {
-        background-position-x: 62%;
-        background-position-y: 0;
+        background-position: 62% 0;
     }
     
     .home-hero {
@@ -484,16 +492,14 @@ footer > *:not(.socials-list) {
 
 @media screen and (min-width:600px) and (orientation: landscape) {
     .col:last-child {
-        margin-bottom: 150px;
+        margin-bottom: 50px;
     }
     .home-hero-cntr {
-        background-position-x: 50%;
-        background-position-y: 0;
+        background-position: 50% 0;
     }
 
     .home-hero-overlapping-img {
-        background-position-x: 52%;
-        background-position-y: 0;
+        background-position: 25% 0;
     }
     
     .home-hero {
@@ -554,12 +560,11 @@ footer > *:not(.socials-list) {
     }
 
     .home-hero-cntr {
-        background-position: 0;
+        background-position: 60% 0;
     }
 
     .home-hero-overlapping-img {
-        background-position-x: -15px;
-        background-position-y: 0;
+        background-position:  66%;
     }
     .home-hero {
         max-width: 100%;
@@ -642,7 +647,6 @@ footer > *:not(.socials-list) {
 
     .footer-wave {
         height: 80vh;
-        height: calc(var(--vh, 1vh) * 80);
     }
 
     .footer-main {
@@ -664,7 +668,6 @@ footer > *:not(.socials-list) {
     .pc-wave {
         display: inline-block;
         height: 65vh;
-        height: calc(var(--vh, 1vh) * 65);
     }
 
     .mobile-wave {
