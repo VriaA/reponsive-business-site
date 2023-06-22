@@ -114,9 +114,9 @@ body {
     background-size: cover;
 }
 .home-hero-cntr {
-    height: 83vh;
+    height: 90vh;
     background-position: 60% 0;
-    padding: 8.7em 0 7.5em;
+    padding: 6em 0 9.5em;
     overflow-y: auto;
     z-index: 0;
 }
@@ -147,7 +147,7 @@ body {
 
 .home-wrapper {
     position: absolute;
-    top: 82.5vh;
+    top: 90vh;
     width: 100%;
     min-height: fit-content;
     background: #222;
