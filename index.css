@@ -114,7 +114,7 @@ body {
     background-size: cover;
 }
 .home-hero-cntr {
-    height: 85vh;
+    height: 80vh;
     background-position: 60% 0;
     padding: 9.5em 0 7.5em;
     overflow-y: auto;
@@ -147,15 +147,35 @@ body {
 
 .home-wrapper {
     position: absolute;
-    top: 85vh;
+    top: 80vh;
     width: 100%;
     min-height: fit-content;
     background: #222;
     z-index: 19;
 }
 
+.fa-chevron-up {
+    display: block;
+    width: fit-content;
+    font-size: 2rem;
+    color: #b9b9b9;
+    padding-top: 10px;
+    margin: 0 auto;
+    animation: 1s bounce linear infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0)
+    }
+
+    100% {
+        transform: translateY(5px);
+    }
+}
+
 main {
-    padding: 6.5em 0 10em;
+    padding: 6em 0 10em;
 }
 
 .info {
@@ -561,6 +581,8 @@ footer > *:not(.socials-list) {
 
     .home-hero-cntr {
         background-position: 60% 0;
+        min-height: 100vh;
+        overflow: hidden;
     }
 
     .home-hero-overlapping-img {
@@ -572,6 +594,13 @@ footer > *:not(.socials-list) {
 
     /*=========== INFO ===========*/
 
+    .home-wrapper   {
+        top: 100vh;
+    }
+
+    .fa-chevron-up {
+        display: none;
+    }
     .col.col:not(:last-of-type) {
         margin-bottom: 0;
         margin-right: 5em;
