@@ -29,9 +29,9 @@ body {
     object-fit: cover;
 }
 
-.hidden {
+/* .hidden {
     opacity: 0;
-}
+} */
 
 .show {
     opacity: 1;
@@ -116,7 +116,7 @@ body {
 .home-hero-cntr {
     height: 90vh;
     background-position: 60% 0;
-    padding: 8em 0;
+    padding: 7em 0 9em;
     overflow-y: auto;
     z-index: 0;
 }
@@ -600,6 +600,7 @@ footer > *:not(.socials-list) {
 
     .home-wrapper   {
         top: 100vh;
+        border-radius: 0 0 0;
     }
 
     .fa-chevron-up {
