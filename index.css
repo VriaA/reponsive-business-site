@@ -29,10 +29,10 @@ body {
     object-fit: cover;
 }
 
-.hidden {
+/* .hidden {
     opacity: 0;
     transition: .6s all ease;
-}
+} */
 
 .show {
     opacity: 1;
@@ -590,7 +590,7 @@ footer > *:not(.socials-list) {
     }
 
     .home-hero-overlapping-img {
-        background-position:  66%;
+        background-position:  72%;
     }
     .home-hero {
         max-width: 100%;
