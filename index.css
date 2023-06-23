@@ -149,8 +149,8 @@ body {
 
 .home-wrapper {
     position: absolute;
-    top: 89vh;
-    top: calc(var(--vh, 1vh) * 89);
+    top: 85vh;
+    top: calc(var(--vh, 1vh) * 85);
     width: 100%;
     min-height: fit-content;
     background: #222;
